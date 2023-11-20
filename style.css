@@ -16,7 +16,7 @@ header ul{
 }
 header h4 {
   color:rgb(255, 255, 255);
-    position: absolute;
+    position:absolute;
     left: 50px;
     top:0;
     line-height: 135px;
@@ -39,37 +39,39 @@ header h4 {
 header a:hover{
     text-decoration: underline;
 }
-img{ 
-  padding:100px 40px 0px ;
+
+ 
+.news{
+ display:flex; 
+ justify-content:space-evenly;
+ padding:150px;
+}
+.news h1,h2,h3{
+  text-align:center;
+  padding:20px;
+
+}
+.news h4,h5{
+  text-align:center;
+  padding:2px;
+
+}
+footer{
+  text-align: center;
+  padding-top: 20px;
+}
+@media screen and  (max-width: 720px){
+  header ul{
+    display:none;
+  }
+.news{
+  display:block; 
+
+}
+.news img{
+  width: 100%;
 }
 
-.news  {
-  display:flex;
- flex-direction: column;
- padding:0 75px;
- margin:40px 0;
+
 }
-.news h2{
   
-  margin: 50px 0;
-}
-.material  {
-  position: absolute;
-  right: 30vw;
-  top:180px;
-  line-height: 30px;
-   
-}
-.material h5
-{
-padding :30px 50px;
-}
-.material h1
-{
-padding:20px 100px;
-}
-.material h2
-{
-padding:10px 30px ;
-}
-
