@@ -14,6 +14,7 @@ header ul{
     top:0;
     line-height:80px;
 }
+
 header h4 {
   color:rgb(255, 255, 255);
     position:absolute;
@@ -46,6 +47,16 @@ header a:hover{
  justify-content:space-evenly;
  padding:150px;
 }
+.news{
+  background-color: antiquewhite;
+  height: 85vh;
+  background-image: url("jpg/背景.jpg");
+  background-repeat: no-repeat;
+  background-size: 90% 80%;
+  background-position: 65px 0px;
+
+}
+
 .news h1,h2,h3{
   text-align:center;
   padding:20px;
